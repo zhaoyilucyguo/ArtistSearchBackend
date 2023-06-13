@@ -8,7 +8,7 @@ const cors = require('cors');
 app.use(express.static("frontend"));
 
 app.use(cors({
-  origin: 'http://localhost:4200'
+  origin: 'https://zhaoyilucyguo.github.io/ArtistSearch/'
 }));
 
 // Allow specific methods and headers
